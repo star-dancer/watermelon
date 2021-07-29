@@ -1,4 +1,4 @@
-{
+export const PRETTIER_CONFIG={
     "singleQuote": false,
     "trailingComma": "none",
     "tabWidth": 2,
