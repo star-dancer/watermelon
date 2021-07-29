@@ -1,0 +1,13 @@
+{
+  "name": "watermelon",
+  "version": "1.0.0",
+  "description": "watermelon",
+  "main": "index.js",
+  "repository": "https://github.com/star-dancer/watermelon.git",
+  "author": "rikka",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "eslint": "^7.31.0"
+  }
+}
