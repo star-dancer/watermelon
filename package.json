@@ -1,6 +1,6 @@
 {
   "name": "@star-dancer/watermelon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "watermelon",
   "main": "index.js",
   "repository": "https://github.com/star-dancer/watermelon.git",
@@ -10,8 +10,10 @@
     "prepublish": "tsc --build"
   },
   "dependencies": {
+    "@angular-eslint/builder": "^12.3.1",
     "@angular-eslint/eslint-plugin": "^12.3.1",
     "@angular-eslint/eslint-plugin-template": "^12.3.1",
+    "@angular-eslint/schematics": "^12.3.1",
     "@angular-eslint/template-parser": "^12.3.1",
     "@angular/compiler": "^12.1.4",
     "@types/eslint": "^7.28.0",

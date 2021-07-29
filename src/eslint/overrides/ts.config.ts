@@ -1,6 +1,6 @@
 import { Linter } from "eslint";
 
-import { SORT_CLASS_MEMBER_CONFIG } from "./class-member-sort.config";
+import { SORT_CLASS_MEMBER_CONFIG } from "../rules";
 
 export const TS_CONFIG: Linter.ConfigOverride = {
   files: ["*.ts"],
