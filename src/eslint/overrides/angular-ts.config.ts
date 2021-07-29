@@ -13,7 +13,7 @@ export const ANGULAR_TS_CONFIG: Linter.ConfigOverride = {
     ...(TS_CONFIG.extends as string[]).filter(
       (item) => item !== "plugin:prettier/recommended"
     ),
-    "plugin:@angular-eslint/recommend",
+    "plugin:@angular-eslint/recommended",
     "plugin:@angular-eslint/template/process-inline-templates",
     "plugin:prettier/recommended"
   ],
