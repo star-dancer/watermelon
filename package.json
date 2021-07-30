@@ -1,13 +1,13 @@
 {
   "name": "@star-dancer/watermelon",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "watermelon",
   "main": "index.js",
   "repository": "https://github.com/star-dancer/watermelon.git",
   "author": "rikka",
   "license": "MIT",
   "scripts": {
-    "prepublish": "tsc --build"
+    "prepublish": "tsc --build --clean && tsc --build"
   },
   "dependencies": {
     "@angular-eslint/eslint-plugin": "^12.3.1",

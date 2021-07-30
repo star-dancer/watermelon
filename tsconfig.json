@@ -64,6 +64,7 @@
   },
   "include": [
     "./index.ts",
-    "./.prettierrc.ts"
+    "./.prettierrc.ts",
+    "./src/**/*.ts"
   ]
 }
