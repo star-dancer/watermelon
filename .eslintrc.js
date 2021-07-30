@@ -1,1 +1,1 @@
-module.exports = require("./index.js").eslint;
+module.exports = require("./index.js").ESLINT_JS;
