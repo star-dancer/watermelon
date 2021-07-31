@@ -5,7 +5,7 @@ import {
   ANGULAR_TS_CONFIG,
   JS_CONFIG,
   TS_CONFIG
-} from "./eslint/overrides";
+} from "./overrides";
 
 export const ESLINT_CONFIG: Linter.Config = {
   root: true,
