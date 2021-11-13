@@ -7,10 +7,10 @@
   "author": "rikka",
   "license": "MIT",
   "scripts": {
-    "prepublish": "tsc --build --clean && tsc --build"
+    "prepublish": "tsc --build --clean && tsc --build",
+    "syncyarnlock": "syncyarnlock -s -k"
   },
   "devDependencies": {
-    "syncyarnlock": "1.0.19",
     "@angular-eslint/eslint-plugin": "12.6.1",
     "@angular-eslint/eslint-plugin-template": "12.6.1",
     "@angular-eslint/template-parser": "12.6.1",
@@ -40,6 +40,7 @@
     "stylelint-config-standard": "22.0.0",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.21.0",
+    "syncyarnlock": "1.0.19",
     "tailwindcss": "2.2.19",
     "typescript": "4.4.4"
   }
